@@ -7,7 +7,6 @@
 #              /_/  |_/_/\___/_/|_/_____/\___/|___/_/   /_/                    #
 #                                                                              #
 #                                                                              #
-# 0x16 Script Servers - Install clean server & more :)                         #
 #                                                                              #
 # FILE ->                                                                      #
 # timer.sh                                                                     #
@@ -42,5 +41,5 @@ read time
 
 clear
 
-echo "${GREEN}Le timer a ete programmer pour "$time "minutes.${ENDCOLOR}"
+echo "${GREEN}Le timer a été programmé pour "$time "minutes.${ENDCOLOR}"
 sudo shutdown -P +$time
